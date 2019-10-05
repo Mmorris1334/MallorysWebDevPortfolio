@@ -1,0 +1,47 @@
+body {
+	width:90%;
+	margin: 0 auto;
+	background-image: url("../images/pattern.jpg");
+	
+}
+
+#homeButton{
+	z-index:1000;
+	height: 50px;
+	width: 75 px;
+	background-color: #ccccb3;
+	color: #66add6;
+	font-family: Arial;
+	position: fixed;
+	top: 5%;
+	right: 105px;
+	
+	
+}
+#nextPage{
+	z-index:2000;
+	height: 50px;
+	width: 75 px;
+	background-color: #ccccb3;
+	color: #66add6;
+	font-family: Arial;
+	position: fixed;
+	top: 5%;
+	right: 15px;
+	
+}
+
+#content {
+	overflow: auto;
+	background-color: #ccc;
+	border: 3px dotted #0088dd;
+}
+
+img.align-right {
+	float: right;
+	margin-left: 10px;
+}
+img.align-left {
+	float: left;
+	margin-right: 10px;
+}
